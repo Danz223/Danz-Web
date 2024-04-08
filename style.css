@@ -52,7 +52,7 @@ body {
     width: 100%;
     text-align: justify; /* Teks menjadi rata kiri dan kanan */
     text-decoration: none;
-    text-indent: 1em; /* Tambahkan indentasi pada awal paragraf */
+    text-indent: 0.8rem; /* Tambahkan indentasi pada awal paragraf */
 }
 
 #links {
