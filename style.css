@@ -44,14 +44,15 @@ body {
 
 #userDesk {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
     line-height: 1.25;
     display: block;
     font-family: var(--font);
     width: 100%;
-    text-align: center;
+    text-align: justify; /* Teks menjadi rata kiri dan kanan */
     text-decoration: none;
+    text-indent: 1em; /* Tambahkan indentasi pada awal paragraf */
 }
 
 #links {
