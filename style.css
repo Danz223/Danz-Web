@@ -50,9 +50,12 @@ body {
     display: block;
     font-family: var(--font);
     width: 100%;
-    text-align: justify; /* Teks menjadi rata kiri dan kanan */
+    text-align: justify;
     text-decoration: none;
-    text-indent: 0.8rem; /* Tambahkan indentasi pada awal paragraf */
+    text-indent: 1em; /* Memberikan sedikit spasi pada garis paling ujung kiri */
+    text-justify: inter-word; /* Mengatur jarak antara kata-kata */
+    margin-left: 1em; /* Memberikan sedikit spasi pada garis paling ujung kanan */
+    margin-right: 1em; /* Memberikan sedikit spasi pada garis paling ujung kiri */
 }
 
 #links {
